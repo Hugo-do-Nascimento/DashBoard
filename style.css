@@ -1,0 +1,64 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #012a4a;
+    position: relative;
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.navbar-toggler {
+    background-color: white!important;
+}
+
+.navbar-brand {
+    color: white!important;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.nav-link-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+header {
+    background-color: #011a2d!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: 30;
+}
+
+article {
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
