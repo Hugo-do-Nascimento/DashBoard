@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #16517d!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: 30;
+}
+
+h2 {
+    color: white;
+    font-size: 35px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+}
+
+.navbar-toggler {
+    background-color: white!important;
+}
+
+.navbar-brand {
+    color: white!important;
+}
+
+.nav-item {
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.nav-link-button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-link-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+h1 {
+    color: white; /* Cor branca para o texto do H1 */
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+aside {
+    width: 250px;
+    background-color: #eee;
+    padding: 10px;
+}
+
+section {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+.rodape {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
